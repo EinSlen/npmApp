@@ -8,7 +8,7 @@
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
   <a href="https://github.com/EinSlen#licence" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/github/license/EinSlen/Crunchyroll" />
+    <img alt="License: MIT" src="https://img.shields.io/github/license/EinSlen/npmApp/blob/main/LICENSE.md" />
   </a>
   <a href="https://twitter.com/valentindtv" target="_blank">
     <img alt="Twitter: valentindtv" src="https://img.shields.io/twitter/follow/valentindtv.svg?style=social" />
@@ -53,7 +53,7 @@ Give a ⭐️ if this project helped you!
 ## 📝 License
 
 Copyright © 2021 [DVLaD](https://github.com/EinSlen).<br />
-This project is [MIT](https://github.com/EinSlen/LICENSE) licensed.
+This project is [MIT](https://github.com/EinSlen/npmApp/blob/main/LICENSE.md) licensed.
 
 ***
 _This README was generated with ❤️_
