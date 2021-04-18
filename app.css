@@ -1,0 +1,180 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: rgb(46, 43, 43);
+  background-size: cover;
+  cursor: pointer;
+  color: aliceblue;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.title-bar {
+  -webkit-app-region: drag;
+  margin: 0;
+  display: flex;
+  background-color: rgb(90, 88, 88);
+  border: 0.5px rgb(19, 18, 18) solid;
+  height: 40px;
+  font-family: 'MuseoModerno', cursive;
+}
+
+.menu-button-container {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+img#icon-set {
+  padding: 5px;
+  height: 25px;
+  width: 25px;
+  border-radius: 25px;
+}
+
+.app-name-container {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  background-color: rgb(36, 32, 32);
+  color: whitesmoke;
+}
+
+.window-controls-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-grow: 1;
+  background-color: rgb(36, 32, 32);
+}
+
+.menu-button {
+  -webkit-app-region: no-drag;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 25px;
+  height: 25px;
+  top: 0%;
+}
+
+.menu-button:hover {
+  background-color: grey;
+}
+
+.minimize-button {
+  -webkit-app-region: no-drag;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 21px;
+  height: 21px;
+  background-color: royalblue;
+  border-radius: 5px;
+}
+
+.close-button {
+  -webkit-app-region: no-drag;
+  margin-right: 5px;
+  margin-left: 5px;
+  width: 35px;
+  height: 35px;
+}
+
+.config-title {
+  width: 35px;
+  height: 35px;
+  border-radius: 25%;
+  position: absolute;
+  right: 0;
+  margin: 2px;
+
+}
+
+.config-title:hover {
+  transform: scale(1.05);
+}
+
+.npm-install-text {
+  position: relative;
+  margin-left: 25px;
+}
+
+.npm-preinstall-text {
+  position: relative;
+  margin-left: 25px;
+}
+
+.npm-search-text {
+  position: relative;
+  margin-left: 25px;
+}
+
+.npm-install-text,
+.npm-preinstall-text,
+.npm-search-text {
+  width: 200px;
+}
+
+.npm-install-text:hover,
+.npm-preinstall-text:hover,
+.npm-search-text:hover, 
+h4#directory:hover, 
+h4#node-console:hover {
+  opacity: 0.9;
+  border-radius: 25px;
+  left: 10px;
+}
+
+.npm-install-block {
+  position: relative;
+  left: 35px;
+}
+
+div#npm-install-block {
+  display: none;
+  width: 250px;
+  color: rgb(155, 153, 153);
+}
+
+div#text-div {
+  width: 150px;
+}
+
+.npm-image-one {
+  position: fixed;
+  top: 40%;
+  left: 40%;
+  border-bottom: solid black;
+}
+
+.ml4 .letters {
+  position: absolute;
+  margin: auto;
+  position: fixed;
+  top: 30%;
+  left: 65%;
+  opacity: 0; 
+}
+
+h4 {
+  position: relative;
+  margin-left: 25px;
+}
+
+div#text-option {
+  display: none;
+  width: 250px;
+  margin-top: 5%;
+  margin-left: 2%;
+
+}
+
+h4#option-text {
+  color: rgb(62, 62, 224);
+}
+
+h4#directory {
+  color: yellow;
+}
+
+h4#node-console {
+  color: chartreuse;
+}
